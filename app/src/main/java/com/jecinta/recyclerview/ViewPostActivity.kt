@@ -17,6 +17,7 @@ class ViewPostActivity : AppCompatActivity() {
     var postId = 0
     lateinit var commentsAdapter: CommentsRvAdapter
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

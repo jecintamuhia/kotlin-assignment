@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     override  fun onResume(){
         super.onResume()
         rvNames = findViewById(R.id.rvNames)
-        val names = listOf("Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema", "Mercylin", "Hewan", "Lwam", "Danait", "Fiona", "Birhanu", "Hellen","Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema", "Mercylin", "Hewan", "Lwam", "Danait", "Fiona", "Birhanu", "Hellen","Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema", "Mercylin", "Hewan", "Lwam", "Danait", "Fiona", "Birhanu", "Hellen", "Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema", "Mercylin", "Hewan", "Lwam", "Danait", "Fiona", "Birhanu", "Hellen", "Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema", "Mercylin", "Hewan", "Lwam", "Danait", "Fiona", "Birhanu", "Hellen", "Kevine", "Rigbe", "Semhal", "Yordanos", "Tirsit", "Phoebe", "Arsema")
+        val names = listOf("Jecinta", "immaculate", "Rabeccah", "Dorothy", "Abigael", "Amos", "Emylene", "Mercylin", "Mercy", "Hani", "Daniella", "Katya", "Joshua", "Qefar", )
 
         val namesAdapter = NamesRvAdapter(names)
 //        rvNames.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
